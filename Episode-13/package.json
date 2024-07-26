@@ -6,7 +6,7 @@
     "scripts": {
         "start": "parcel index.html",
         "build": "parcel build index.html",
-        "test": "Jest",
+        "test": "jest",
         "watch-test": "jest --watch"
     },
     "repository": {
@@ -37,6 +37,9 @@
         "tailwindcss": "^3.4.4"
     },
     "dependencies": {
+        "@babel/core": "^7.24.6",
+        "@babel/preset-env": "^7.24.6",
+        "@babel/preset-react": "^7.24.6",
         "@reduxjs/toolkit": "^2.2.6",
         "@swc/helpers": "^0.5.12",
         "babel-jest": "^29.7.0",
