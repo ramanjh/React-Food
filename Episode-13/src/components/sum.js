@@ -1,4 +1,4 @@
 
-export const sum = (a, b) => {
+export default sum = (a, b) => {
   return a + b;
 };
